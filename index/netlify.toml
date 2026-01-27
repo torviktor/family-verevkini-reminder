@@ -1,6 +1,6 @@
 [build]
   base = "index"
-  functions = "netlify/functions"
+  functions = "index/netlify/functions"
 
 [functions."reminder_cron"]
   schedule = "*/5 * * * *"
