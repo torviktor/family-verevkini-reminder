@@ -1,4 +1,5 @@
 [build]
+  base = "index"
   functions = "netlify/functions"
 
 [functions."reminder_cron"]
