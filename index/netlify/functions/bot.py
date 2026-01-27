@@ -15,7 +15,7 @@ from telegram.ext import (
     filters
 )
 
-TOKEN = "ВСТАВЬ_СЮДА_TOKEN_ОТ_BOTFATHER"
+TOKEN = "8593589562:AAEzpabdygda057aFSyDrUq3mIwkWoKsKVY"
 DATA_FILE = "data/events.json"
 
 
@@ -102,3 +102,4 @@ def handler(event, context):
 
     update = Update.de_json(json.loads(event["body"]), app.bot)
     return app.process_update(update)
+
