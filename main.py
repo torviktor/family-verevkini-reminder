@@ -8,8 +8,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, BotComm
 from telegram.ext import (Application, CommandHandler, CallbackQueryHandler,
                           MessageHandler, ContextTypes, filters)
 
-TOKEN = os.environ.get("TELEGRAM_TOKEN",
-                       "8593589562:AAEzpabdygda057aFSyDrUq3mIwkWoKsKVY")
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
 DATA_FILE = "events.json"
 
 # Часовой пояс Москва
