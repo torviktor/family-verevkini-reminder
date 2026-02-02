@@ -1,9 +1,0 @@
-[build]
-  functions = "netlify/functions"
-  publish = "."
-
-[functions]
-  directory = "netlify/functions"
-
-[functions."reminder_cron"]
-  schedule = "*/5 * * * *"
